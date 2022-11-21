@@ -1,0 +1,20 @@
+<div class="flex justify-between">
+  <div>
+    <div class="mapDiv" #mapDiv></div>
+  </div>
+  <div class="flex flex-col w-80">
+    <h1 class="text-center text-2xl font-bold pt-3 pb-4">Search</h1>
+    <input
+      class="pb-4 justify-center"
+      type="text"
+      pInputText
+      [(ngModel)]="textsearch"
+    />
+    <button
+      pButton
+      type="button"
+      label="Search"
+      class="p-button-success pt-5"
+    ></button>
+  </div>
+</div>
